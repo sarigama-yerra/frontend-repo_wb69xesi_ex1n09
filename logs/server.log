@@ -1,0 +1,165 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 211 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.17.200:3000/
+7:21:22 PM [vite] Pre-transform error: Failed to resolve import "gsap" from "src/components/Sections.jsx". Does the file exist?
+7:21:22 PM [vite] Pre-transform error: Failed to resolve import "gsap" from "src/components/Hero.jsx". Does the file exist?
+7:21:22 PM [vite] Pre-transform error: Failed to resolve import "gsap" from "src/components/Loader.jsx". Does the file exist?
+7:21:22 PM [vite] Pre-transform error: Failed to resolve import "gsap" from "src/components/About.jsx". Does the file exist?
+7:21:35 PM [vite] Internal server error: Failed to resolve import "gsap" from "src/components/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/Hero.jsx:3:21
+  2  |  import Spline from "@splinetool/react-spline";
+  3  |  import { useEffect, useRef } from "react";
+  4  |  import { gsap } from "gsap";
+     |                        ^
+  5  |  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  6  |  gsap.registerPlugin(ScrollTrigger);
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+7:21:35 PM [vite] Internal server error: Failed to resolve import "gsap" from "src/components/Loader.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/Loader.jsx:2:21
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { useEffect, useRef, useState } from "react";
+  3  |  import { gsap } from "gsap";
+     |                        ^
+  4  |  export default function Loader() {
+  5  |    const [done, setDone] = useState(false);
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+7:21:35 PM [vite] Internal server error: Failed to resolve import "gsap" from "src/components/About.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/About.jsx:2:21
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { useEffect, useRef } from "react";
+  3  |  import { gsap } from "gsap";
+     |                        ^
+  4  |  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  5  |  gsap.registerPlugin(ScrollTrigger);
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+7:21:35 PM [vite] Internal server error: Failed to resolve import "gsap" from "src/components/Sections.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/Sections.jsx:2:21
+  1  |  import { Fragment, jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { useEffect, useRef } from "react";
+  3  |  import { gsap } from "gsap";
+     |                        ^
+  4  |  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  5  |  gsap.registerPlugin(ScrollTrigger);
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+7:21:43 PM [vite] Internal server error: Failed to resolve import "gsap" from "src/components/Loader.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/Loader.jsx:2:21
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { useEffect, useRef, useState } from "react";
+  3  |  import { gsap } from "gsap";
+     |                        ^
+  4  |  export default function Loader() {
+  5  |    const [done, setDone] = useState(false);
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+7:21:43 PM [vite] Internal server error: Failed to resolve import "gsap" from "src/components/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/Hero.jsx:3:21
+  2  |  import Spline from "@splinetool/react-spline";
+  3  |  import { useEffect, useRef } from "react";
+  4  |  import { gsap } from "gsap";
+     |                        ^
+  5  |  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  6  |  gsap.registerPlugin(ScrollTrigger);
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+7:21:43 PM [vite] Internal server error: Failed to resolve import "gsap" from "src/components/About.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/About.jsx:2:21
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { useEffect, useRef } from "react";
+  3  |  import { gsap } from "gsap";
+     |                        ^
+  4  |  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  5  |  gsap.registerPlugin(ScrollTrigger);
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+7:21:43 PM [vite] Internal server error: Failed to resolve import "gsap" from "src/components/Sections.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/Sections.jsx:2:21
+  1  |  import { Fragment, jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { useEffect, useRef } from "react";
+  3  |  import { gsap } from "gsap";
+     |                        ^
+  4  |  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  5  |  gsap.registerPlugin(ScrollTrigger);
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
